@@ -92,10 +92,10 @@ function getAges(request, response) {
 
 // start the server:
 server.listen(process.env.PORT || 8080, serverStart);
-server.get('/', getRoot);          // GET the root of the site
-server.get('/age/', getAge);       // GET the last age submitted
-server.get('/ages/', getAges);     // GET all ages
-server.get('/age/:age', setAge);   // GET to set an age
-server.get('/name/', getName);     // GET the last name given
-server.get('/names/', getNames);   // GET all names
-server.get('/name/:name', setName);// GET to set a name
+server.get('/restful/', getRoot);          // GET the root of the site
+server.get('/restful/age/', getAge);       // GET the last age submitted
+server.get('/restful/ages/', getAges);     // GET all ages
+server.get('/restful/age/:age', setAge);   // GET to set an age
+server.get('/restful/name/', getName);     // GET the last name given
+server.get('/restful/names/', getNames);   // GET all names
+server.get('/restful/name/:name', setName);// GET to set a name
