@@ -99,3 +99,4 @@ server.get('/restful/age/:age', setAge);   // GET to set an age
 server.get('/restful/name/', getName);     // GET the last name given
 server.get('/restful/names/', getNames);   // GET all names
 server.get('/restful/name/:name', setName);// GET to set a name
+// server.post()
